@@ -1,12 +1,12 @@
-import { BrowserRouter } from "react-router-dom"
-import AllComponents from "./components/AllComponents.jsx";
+import { BrowserRouter } from "react-router-dom";
+import AllComponents from "./components/AllComponents";
 
 function App() {
   return (
     <div className="App">
-     <BrowserRouter>
-       <AllComponents />
-     </BrowserRouter>
+      <BrowserRouter>
+        <AllComponents />
+      </BrowserRouter>
     </div>
   );
 }
